@@ -7,4 +7,3 @@ This folder contains a bunch of basic code for a nonexistent restaurant website.
 Questions:
 Dean Russell
 deanwrussell@me.com
-(I don’t mind)
