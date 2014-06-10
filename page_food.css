@@ -11,6 +11,32 @@ html, body, div, h1, p, a {
 		font-weight: inherit;
 		line-height: inherit;
 	vertical-align: baseline;
-	color: #ffffff;
+	color: #000;
 	text-shadow: 0.5px 0.25px #666666;
 }
+
+/* COLOR DIFFERENTIATORS--DELETE LATER */
+div {
+	background-color: lightgray;
+}
+
+.nav-buttons__folder {
+	background-color: red;
+}
+
+h1, p, a {
+	background-color: gray;
+}
+/*color differentiators--delete later*/
+
+/* HEADER + NAVIGATION BUTTON LINKS */
+
+#nav__food-drinkID {
+	visibility: hidden;
+}
+
+.nav-buttons__folder:hover #nav__food-drinkID {
+	visibility: visible;
+}
+
+
