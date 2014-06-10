@@ -88,8 +88,10 @@ div.main-nav-wrapper {
 	text-align: right;
 }
 
-.nav-buttons ul {
+ul.nav-buttons {
 	list-style-type: none;
+	line-height: 70px;
+	vertical-align: middle;
 }
 
 .nav-buttons li {
