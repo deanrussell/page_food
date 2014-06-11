@@ -46,9 +46,10 @@ color differentiators--delete later*/
 	z-index: 100;
 	width: 100%;
 	height: 120px;
+	min-width: 1250px;
 	line-height: 100px;
 	display: block;
-	background-color: green;
+	background-color: #fff;
 }
 
 div.site-title {
@@ -77,6 +78,10 @@ img.site-title__icon-l {
     padding-left: 2.5%;
 }
 
+.site-title__name-r:hover {
+	visibility: visible;
+}
+
 .site-title__name-r h1 {
 	line-height: 100%;
 	margin-top: 10%;
@@ -90,16 +95,18 @@ img.site-title__icon-l {
 
 div.main-nav-wrapper {
 	float: right;
-	width: 55%;
+	width: 57%;
 	height: 90px;
-	margin: 0 1% 0 1%;
+	margin: 0 1% 0 0;
 	text-align: right;
+	line-height: 90px;
 }
 
 ul.nav-buttons {
 	list-style-type: none;
 	line-height: 70px;
 	vertical-align: middle;
+	font-size: 105%;
 }
 
 .nav-buttons li {
@@ -113,11 +120,66 @@ ul.nav-buttons {
 	display: block;
 }
 
+/* MAIN PANEL */
+
 .main_panel--picture {
 	width: 100%;
-	height: 60%;
+	height: 55%;
 	z-index: -30;
 	margin-top: 0;
-	background-image: url("Fruit_Cheese-2.jpg");
+	background-image: url("OrchardBistro-01.jpg");
+	position: fixed;
 }
+
+.main_panel--over {
+	width: 100%;
+	min-width: 680px;
+	position:absolute;
+}
+
+.main_panel--over-text {
+	background-color: #fff;
+	font-style: italic;
+}
+
+h1.main_panel--over-text {
+	font-size: 350%;
+	margin-top: 9%;
+	margin-right: 50%;
+	margin-left: 10%;
+	padding: 1% 1% 1% 1%;
+}
+
+h2.main_panel--over-text {
+	font-size: 150%;
+	margin-top: 1%;
+	margin-right: 50%;
+	margin-left: 10%;
+	padding: 5px 5px 5px 5px;
+}
+
+h2.main_panel--over-text.main_panel--over-sub2 {
+	font-size: 120%;
+}
+
+.main_panel--location {
+	float: right;
+	background-color: #fff;
+	font-size: 150%;
+	margin-top: 350px;
+	margin-right: 15%;
+	padding: 5px 10px 5px 10px;
+ 	position: relative;
+}
+
+.main_panel--menu {
+	float: right;
+	background-color: #fff;
+	font-size: 150%;
+	margin-top: 350px;
+	margin-right: 1%;
+	padding: 5px 10px 5px 10px;
+ 	position: relative;
+}
+
 
