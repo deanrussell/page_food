@@ -24,6 +24,10 @@ a {
 	text-decoration: none;
 }
 
+a:hover {
+    color: #768e9d;
+}
+
 /* COLOR DIFFERENTIATORS--DELETE LATER 
 div {
 	background-color: lightgray;
@@ -46,7 +50,7 @@ color differentiators--delete later*/
 	z-index: 100;
 	width: 100%;
 	height: 120px;
-	min-width: 1250px;
+	min-width: 880px;
 	line-height: 100px;
 	display: block;
 	background-color: #fff;
@@ -54,29 +58,28 @@ color differentiators--delete later*/
 
 div.site-title {
 	float: left;
-	width: 40%;
+	width: 10%;
 	height: 100%;
 }
 
 .site-title__icon-l {
 	float: left;
-    width: 20%;
+    width: 100px;
     height: auto;
     margin-top: 1%;
     margin-left: 5%;
 }
 
 img.site-title__icon-l {
-	width: 100%;
 	height: auto;
 }
 
 /*.site-title__name-r {
 	visibility: visible;
 	float: left;
-    font-size: 170%;
+    font-size: 150%;
     padding-left: 2.5%;
-}*/
+}
 
 .site-title__name-r:hover {
 	visibility: visible;
@@ -91,11 +94,11 @@ img.site-title__icon-l {
 	line-height: 100%;
 	padding-top: 1%;
 	font-size: 60%;
-}
+} */
 
 div.main-nav-wrapper {
 	float: right;
-	width: 57%;
+	width: 85%;
 	height: 90px;
 	margin: 0 1% 0 0;
 	text-align: right;
@@ -106,7 +109,7 @@ ul.nav-buttons {
 	list-style-type: none;
 	line-height: 70px;
 	vertical-align: middle;
-	font-size: 105%;
+	font-size: 125%;
 }
 
 .nav-buttons li {
@@ -124,9 +127,9 @@ ul.nav-buttons {
 
 .main_panel--picture {
 	width: 100%;
-	height: 55%;
+	height: 100%;
 	z-index: -30;
-	margin-top: 0;
+	margin-top: 50px;
 	background-image: url("OrchardBistro-01.jpg");
 	position: fixed;
 }
@@ -144,7 +147,7 @@ ul.nav-buttons {
 
 h1.main_panel--over-text {
 	font-size: 350%;
-	margin-top: 5%;
+	margin-top: 17%;
 	margin-right: 50%;
 	margin-left: 10%;
 	padding: 1% 1% 1% 1%;
@@ -165,8 +168,8 @@ h2.main_panel--over-text.main_panel--over-sub2 {
 .main_panel--location {
 	float: right;
 	background-color: #fff;
-	font-size: 150%;
-	margin-top: 335px;
+	font-size: 121%;
+	margin-top: 419px;
 	margin-right: 15%;
 	padding: 5px 10px 5px 10px;
  	position: relative;
@@ -185,22 +188,25 @@ h2.main_panel--over-text.main_panel--over-sub2 {
 /* CODROPS */
 
 @font-face {
-    font-family: 'icomoon';
-    src:url('../fonts/icomoon/icomoon.eot?pvm5gj');
+    font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+    /*src:url('../fonts/icomoon/icomoon.eot?pvm5gj');
     src:url('../fonts/icomoon/icomoon.eot?#iefixpvm5gj') format('embedded-opentype'),
         url('../fonts/icomoon/icomoon.woff?pvm5gj') format('woff'),
         url('../fonts/icomoon/icomoon.ttf?pvm5gj') format('truetype'),
-        url('../fonts/icomoon/icomoon.svg?pvm5gj#icomoon') format('svg');
+        url('../fonts/icomoon/icomoon.svg?pvm5gj#icomoon') format('svg');*/
     font-weight: normal;
     font-style: normal;
 } /* Icons created with icomoon.io/app */
  
 .tabs {
-    position: relative;
+    position: absolute;
     width: 100%;
     overflow: hidden;
-    margin: 1em 0 2em;
+    margin: 450px 0 0;
     font-weight: 300;
+    background-color: #fff;
+    padding-top: 10px;
+    z-index: 1;
 }
  
 /* Nav */
@@ -225,8 +231,8 @@ h2.main_panel--over-text.main_panel--over-sub2 {
 }
  
 .tabs nav li.tab-current {
-    border: 1px solid #47a3da;
-    box-shadow: inset 0 2px #47a3da;
+    border: 1px solid #825E82;
+    box-shadow: inset 0 2px #825E82;
     border-bottom: none;
     z-index: 100;
 }
@@ -239,7 +245,7 @@ h2.main_panel--over-text.main_panel--over-sub2 {
     right: 100%;
     bottom: 0;
     width: 1000px;
-    background: #47a3da;
+    background: #825E82;
 }
  
 .tabs nav li.tab-current:after {
@@ -262,7 +268,7 @@ h2.main_panel--over-text.main_panel--over-sub2 {
 }
  
 .tabs nav li.tab-current a {
-    color: #47a3da;
+    color: #825E82;
 }
  
 /* Icons */
@@ -272,14 +278,19 @@ h2.main_panel--over-text.main_panel--over-sub2 {
     text-transform: none;
     font-weight: normal;
     font-variant: normal;
-    font-family: 'icomoon';
+    font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;;
     line-height: 1;
     speak: none;
     -webkit-font-smoothing: antialiased;
     margin: -0.25em 0.4em 0 0;
 }
- 
-.icon-food:before {
+.icon-tab img{
+	height: 5%;
+	width: auto;
+	vertical-align: middle;
+}
+
+/* .icon-food:before {
     content: "\e600";
 }
  
@@ -297,7 +308,7 @@ h2.main_panel--over-text.main_panel--over-sub2 {
  
 .icon-shop:before {
     content: "\e604";
-}
+}*/
  
 /* Content */
 .content section {
@@ -322,7 +333,7 @@ h2.main_panel--over-text.main_panel--over-sub2 {
 .no-js .content section {
     display: block;
     padding-bottom: 2em;
-    border-bottom: 1px solid #47a3da;
+    border-bottom: 1px solid #825E82;
 }
  
 .content section.content-current {
@@ -330,11 +341,24 @@ h2.main_panel--over-text.main_panel--over-sub2 {
 }
  
 .mediabox {
-    float: left;
-    width: 33%;
-    padding: 0 25px;
+	float: left;
+    width: 27%;
+	padding: 0 0 0 5%;
 }
- 
+/*.mediabox-L {
+	float: left;
+	margin-left: 12%;
+}
+
+.mediabox-R {
+	float: right;
+	margin-right: 12%;
+}
+
+.mediabox-C {
+	float: none;
+}*/
+
 .mediabox img {
     max-width: 100%;
     display: block;
@@ -342,7 +366,7 @@ h2.main_panel--over-text.main_panel--over-sub2 {
 }
  
 .mediabox h3 {
-    margin: 0.75em 0 0.5em;
+    margin: 0 0 1em;
 }
  
 .mediabox p {
@@ -429,4 +453,12 @@ h2.main_panel--over-text.main_panel--over-sub2 {
     .mediabox p {
         margin: 0;
     }
+}
+
+.nav_footer {
+	width: 100%;
+	height: auto;
+	background-color: #0D0D0D;
+	display: block;
+	z-index: 100;
 }
