@@ -130,7 +130,7 @@ ul.nav-buttons {
 	height: 100%;
 	z-index: -30;
 	margin-top: 50px;
-	background-image: url("img/OrchardBistro-01.jpg");
+	background-image: url("../img/OrchardBistro-01.jpg");
 	position: fixed;
 }
 
