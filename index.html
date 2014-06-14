@@ -7,9 +7,11 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
         <script type="text/javascript" src="js/page_food.js"></script>
-        <!--<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<script src="js/modernizr.custom.js"></script>
+		<!--<link rel="stylesheet" type="text/css" href="css/default.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
-		<script src="js/modernizr.custom.js"></script>-->
+		<script type="text/javascript" src="cbpTooltipMenu.js"></script>
+		<script type="text/javascript" src="cbpTooltipMenu.min.js"></script>-->
 	</head>
 	<body>
 		<header class="header_nav--desktop" id="header_nav--desktopID">
@@ -25,16 +27,8 @@
 				</div>
 				<nav class="top">
 					<div class="main-nav-wrapper">
-						<ul id="cbp-tm-menu" class="nav-buttons cbp-tm-menu">
-							<li class="nav-buttons__folder" class="nav__food-drink">
-								<a href="#">Food + Drink</a>
-										<!--<ul id="nav__food-drinkID" class="cbp-tm-submenu">
-											<li><a href="lunch/" class="cbp-tm-icon-archive">Lunch</a></li>
-											<li><a href="dinner/">Dinner</a></li>
-											<li><a href="drinks/">Drinks</a></li>
-											<li><a href="brunch/">Brunch</a></li>
-										</ul>-->
-							</li>
+						<ul class="nav-buttons">
+							<li><a href="#">Food + Drink</a></li>
 							<li><a href="reservations/">Reservations</a></li>
 							<li><a href="vendors/">Local Vendors</a></li>
 							<li><a href="cookbook/">Cookbook</a></li>
