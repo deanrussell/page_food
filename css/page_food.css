@@ -1,3 +1,5 @@
+/* UNIVERSAL */
+
 html, body, div, h1, h2, p, a {
 	margin:0;
 	padding:0;
@@ -26,6 +28,10 @@ a {
 
 a:hover {
     color: #768e9d;
+}
+
+.italic {
+    font-style: italic;
 }
 
 /* COLOR DIFFERENTIATORS--DELETE LATER 
@@ -455,7 +461,9 @@ h2.main_panel--over-text.main_panel--over-sub2 {
     }
 }
 
-.nav_footer {
+/* FOOTER */
+
+div.nav_footer {
 	width: 100%;
 	height: 20%;
 	background-color: #38005C;
@@ -463,4 +471,49 @@ h2.main_panel--over-text.main_panel--over-sub2 {
 	z-index: 200;
     position: relative;
     clear: both;
+    color: #fff;
+}
+
+div.nav_footer {
+    float: center;
+    margin: 0 auto 0 auto;
+}
+
+p.nav_footer-contact-text {
+    color: #fff;
+    font-size: 110%;
+    padding: 25px 0 0 15px;
+    float: center;
+    margin: 0 auto;
+}
+
+.panel-cover-nav__social {
+    padding-top: 10px;
+    margin-right: 100px;
+}
+
+.panel-cover-nav__social ul {
+    position: relative;
+    margin: 0;
+    list-style-type: none;
+}
+.panel-cover-nav__social ul li {
+    display: inline;
+}
+
+.panel-cover-nav__social a .icon {
+    display: inline-block;
+    font-size: 1.7em;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    padding: 5px 5px 5px 5px;
+    width: 27px;
+    height: auto;
+    text-align: center;
+}
+
+.all-button:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-color: #99FFCC;
 }
