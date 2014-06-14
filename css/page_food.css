@@ -153,7 +153,7 @@ ul.nav-buttons {
 
 h1.main_panel--over-text {
 	font-size: 350%;
-	margin-top: 17%;
+	margin-top: 150px;
 	margin-right: 50%;
 	margin-left: 10%;
 	padding: 1% 1% 1% 1%;
@@ -465,7 +465,7 @@ h2.main_panel--over-text.main_panel--over-sub2 {
 
 div.nav_footer {
 	width: 100%;
-	height: 20%;
+	height: 22.5%;
 	background-color: #38005C;
 	display: block;
 	z-index: 200;
@@ -475,26 +475,24 @@ div.nav_footer {
 }
 
 div.nav_footer {
-    float: center;
-    margin: 0 auto 0 auto;
+    text-align: center;
 }
 
 p.nav_footer-contact-text {
     color: #fff;
     font-size: 110%;
-    padding: 25px 0 0 15px;
+    padding: 25px 0 10px 15px;
     float: center;
     margin: 0 auto;
 }
 
 .panel-cover-nav__social {
     padding-top: 10px;
-    margin-right: 100px;
+    margin: -20px 0 0 -20px;
 }
 
 .panel-cover-nav__social ul {
     position: relative;
-    margin: 0;
     list-style-type: none;
 }
 .panel-cover-nav__social ul li {
@@ -516,4 +514,10 @@ p.nav_footer-contact-text {
 .all-button:hover {
     background-color: rgba(255, 255, 255, 0.5);
     border-color: #99FFCC;
+}
+
+.footer_divider {
+    background-color: #fff;
+    width: 20%;
+    height: 1px;
 }
