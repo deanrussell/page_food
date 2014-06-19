@@ -20,8 +20,7 @@ $(document).ready(function(){
 	$(window).scroll(function () {
 		var	$head = $('#site-titleId');
 		if ($(this).scrollTop() > 110) {
-			$head.addClass('trans25');
-			$head.addClass('move-site-title-r');
+			$head.addClass('move-site-title-r').addClass('trans25');
 		} else {
 			$head.removeClass('move-site-title-r');
 		}
