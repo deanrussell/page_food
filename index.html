@@ -8,6 +8,7 @@
         <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
         <script type="text/javascript" src="js/page_food.js"></script>
 		<script src="js/modernizr.custom.js"></script>
+		<script type="text/javascript" src="js/food_query.js"></script>
 		<!--<link rel="stylesheet" type="text/css" href="css/default.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
 		<script type="text/javascript" src="cbpTooltipMenu.js"></script>
@@ -20,14 +21,14 @@
 					<div class="site-title__icon-l"><a href="index.html">
 						<img class="site-title__icon-l" src="icon/food_nav-icon2.png" alt="The Orchard Bistro">
 					</a></div>
-					<!--<div class="site-title__name-r">
-						<h1 id="site-title__nameID">The Orchard on Pearl</h1>
-						<h2 id="site-title__areaID"><span class="italic">Food from a farm-fresh bistro</span> | Hartford, Conn.</h2>
-					</div>-->
+					<div id="site-titleId" class="site-title__name-r">
+						<h1 id="site-title__nameID"><span class="italic">The Orchard on Pearl</span></h1>
+						<!--<h2 id="site-title__areaID"><span class="italic">Food from a farm-fresh bistro</span> | Hartford, Conn.</h2>-->
+					</div>
 				</div>
 				<nav class="top">
 					<div class="main-nav-wrapper">
-						<ul class="nav-buttons">
+						<ul id="nav-buttonsId" class="nav-buttons">
 							<li><a href="#">Food + Drink</a></li>
 							<li><a href="reservations/">Reservations</a></li>
 							<li><a href="vendors/">Local Vendors</a></li>
@@ -36,6 +37,7 @@
 							<li><a href="contact/">Contact</a></li>
 						</ul>
 					</div>
+					<div id="nav-dropId" class="nav-drop button hide"><i class='icon fi-list'></i></div>
 				</nav>
 			</div>
 		</header>
