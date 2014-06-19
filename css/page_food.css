@@ -285,7 +285,7 @@ h2.main_panel--over-text.main_panel--over-sub2 {
     margin: -0.25em 0.4em 0 0;
 }
 .icon-tab img{
-	height: 5%;
+	height: 1.5em;
 	width: auto;
 	vertical-align: middle;
 }
@@ -519,25 +519,33 @@ p.nav_footer-contact-text {
 
 .nav-drop {
     position: absolute;
-    margin-top: 35px;
+    margin-top: 5px;
     margin-left: 85%;
+    padding: 2px 2px 2px 2px;
     font-size: 40px;
     color: #38005C;
-    border: 3px solid #38005C;
-    background-color: #fff;
-    border-radius: 20;
-    padding: 2px 7px 2px 7px;
     text-align: center;
-    box-shadow: 1px 1px 1px;
+    box-shadow: 0;
+    vertical-align: text-top;
 }
 
-.hide {
-    visibility: hidden!important;
+.button {
+    border: 0px solid black;
+    border-radius: 5px;
+    padding: 0 5px 0 5px;
+    margin: 5px;
 }
 
-.button:active {
+.button:hover {
+    background-color: rgba(1, 1, 1, 0.1);
+}
+
+.nav-drop:active {
     -webkit-transition: 0.07s ease-in-out;
     -webkit-transform: translate(1px, 1px);
+}
+.hide {
+    visibility: hidden!important;
 }
 
 /*ANIMATIONS*/
